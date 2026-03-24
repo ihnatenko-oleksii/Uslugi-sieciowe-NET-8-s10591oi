@@ -3,7 +3,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>_03_Swagger_zadanie1</RootNamespace>
+        <RootNamespace>PKiG_Zadania</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.24"/>

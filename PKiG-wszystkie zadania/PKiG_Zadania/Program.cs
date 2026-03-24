@@ -22,8 +22,14 @@ using (var scope = app.Services.CreateScope())
 }
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
+    // app.UseExceptionHandler("/api/error");
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+else
+{
+    app.UseExceptionHandler("/api/error");
 }
 app.UseHttpsRedirection();
 app.MapControllers();
