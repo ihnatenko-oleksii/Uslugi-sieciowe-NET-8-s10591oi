@@ -1,0 +1,6 @@
+@PKiG_Zadania_HostAddress = http://localhost:5097
+
+GET {{PKiG_Zadania_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
